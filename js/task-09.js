@@ -1,3 +1,4 @@
+
 const btnChangeColor = document.querySelector('.change-color')
 const bodyBackground = document.querySelector("body")
 const nameOffColor = document.querySelector('.color')

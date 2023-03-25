@@ -10,8 +10,9 @@ function proccesLogin(event){
       }
       const userData = {
         email: email.value,
-        password: password.value,
+        password: password.value.trim(),
       }
     console.log(userData)
     event.currentTarget.reset();
 }
+
