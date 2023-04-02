@@ -5,7 +5,7 @@ function proccesLogin(event){
     const {
         elements: { email, password }
       } = event.currentTarget;
-      if (email.value === "" || password.value === "") {
+      if (email.value.trim() === "" || password.value.trim() === "") {
         return alert("Please fill in all the fields!");
       }
       const userData = {
